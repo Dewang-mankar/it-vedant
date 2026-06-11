@@ -1,0 +1,58 @@
+.heading{
+    border: 2px solid black;
+    text-shadow: 5px 5px 5px rgb(15, 236, 12);
+    box-shadow: 2px 2px 2px 5px rgba(129, 233, 73, 0.626);
+    background-color: rgba(174, 247, 210, 0.811);
+
+    h1{
+        font-size: 20px;
+    }
+}
+
+body {
+    background-image: url("images/itvedant_logo.png");
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    background-color: transparent;
+}
+
+section {
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(10deg, rgb(141, 98, 226),20%, pink);
+    position: relative;
+
+    img{
+        margin: 5px;
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+        border-radius: 100%;
+        background-color: rgb(71, 190, 190);
+        box-shadow: 0px 0px 5px 3px red;
+        
+
+    }
+    .new{
+        display: inline-block;
+        width: 50px;
+        height: 40px;
+        background-color: red;
+        border-bottom-left-radius: 10px;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        color: whitesmoke;
+        font-weight: bold;
+        
+}
+    }
+
+

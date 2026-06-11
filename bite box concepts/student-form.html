@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form method="get" action="success.html">
+        First name:<input type="text" id="fn" required placeholder="Enter Your First Name">
+        <br>
+        <br>
+        Last Name:<input type="text" id="ln" required placeholder="Enter Your Last Name">
+        <br>
+        <br>
+          City:
+        <select name="city" id="city">
+            <option>Select your City</option>
+            <option>Nagpur</option>
+            <option>Pune</option>
+            <option>Jalgaon</option>
+            <option>Mumbai</option>
+            <option>Amravati</option>
+            <option>Delhi</option>
+        </select>
+        <br>
+        <br>
+        Roll No:<input type="number" id="rn" required placeholder="Enter your Roll No.">
+        <br>
+        <br>
+        date Of Birth:<input type="date" id="dob" required>
+        <br>
+        <br>
+        Email-ID:<input type="email" id="email" required>
+        <br>
+        <br>
+        Mobile No:<input type="number" id="mobno" required>
+        <br>
+        <br>
+        Admission Date:<input type="date" required>
+        <br>
+        <br>
+        Subjects:
+        Java 8 <input type="checkbox" id="sub1">
+        HTML-CSS<input type="checkbox" id="sub2">
+        React <input type="checkbox" id="sub3">
+        MySql <input type="checkbox" id="sub4">
+        Python<input type="checkbox" id="sub5">
+        Spring Boot<input type="checkbox" id="sub6">
+        <br>
+        <br>
+        Gender:
+        <input type="radio" name="gender" id="gender" value="female">female
+        <input type="radio" name="gender"  id="gender" value="male">Male
+        <input type="radio" name="gender" id="gender" value="Others">Others
+        <br>
+        <br>
+        Password:
+        <input type="password" id="password" required>
+        <br>
+        <br>
+        Feedback:<textarea name="feedback" id="feedback" rows="2" columns="10"></textarea>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>

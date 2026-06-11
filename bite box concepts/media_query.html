@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .heading{
+            color:whitesmoke;
+            text-align: center;
+            padding:50px;
+            background:rgba(177,188,198,0.805);
+            margin:100px auto;
+            max-width:500px;
+
+        }
+        body{
+            margin:0;
+            padding:0;
+            height:100hv;
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url("images/image1.jpeg");
+
+        }
+        @media (min-width:768px){
+            body{
+                background-image: url("images/image2.jpeg");
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>Media query demo</h1>
+
+    </div>
+    <img src="image1.jpeg" class="image1" alt="Image">
+</body>
+</html>
