@@ -33,9 +33,10 @@
         <div class="auth-box">
             <form action="">
                 <h2>Login to Bite<span style="color: red;">Box</span></h2>
-                <input type="email" placeholder="enter email" required>
-                <input type="password" placeholder="enter password" required>
-                <button>Login</button>
+                <input type="email" id="email" placeholder="enter email" required>
+                <input type="password" id="pass" placeholder="enter password" required>
+                <p id="error" style="color: red;"></p>
+                <button  type="button" onclick="login()">Login</button>
                 <p><a href="forgot.html" style="color: red;">Forgot Password</a></p>
                 <p>Don't have an account
                     <a href="signup.html" >SignUp</a>
@@ -43,5 +44,6 @@
             </form>
         </div>
     </section >
+    <script src="./javascript/scripts.js"></script>
 </body>
 </html>

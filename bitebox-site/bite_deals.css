@@ -1,0 +1,71 @@
+.deals-page{
+    padding: 40px;
+    background:rgba(0,0,0,0.71);
+
+}
+.deals-hero{
+    background:linear-gradient(135deg,black,darkgray);
+    color:white;
+    padding:40px;
+    text-align: center;
+    border-radius:10px;
+    margin-bottom:40px;
+
+}
+.deals-hero h1{
+    font-size:40px;
+}
+.deals-hero p{
+    font-size:18px;
+}
+.combo-section{
+    padding:40px;
+    background:rgba(210, 184, 178, 0.567);
+    text-align: center;
+    
+    
+}
+.combo-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:25px;
+    
+
+}
+.combo-card{
+    background:whitesmoke;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0, 0, 0, 0.743);
+    transition:0.5s;
+  
+}
+.combo-card img{
+    width:70%;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+.combo-card h4{
+    margin:10px 0; 
+}
+.combo-card h4{
+    text-decoration:line-through;
+    color:gray;
+    margin-right:10px;
+}
+.combo-card button{
+    background:red;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:10px;
+    cursor:pointer;
+}
+.combo-card button:hover{
+    background:rgb(230,195,183);
+}
+.combo-card:hover{
+    background:rgb(230,183,183);
+    transform:translateX(-8px)
+}

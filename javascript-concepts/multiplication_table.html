@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table</title>
+</head>
+
+<body>
+    <input type="text" id="num" placeholder="Enter the number for which you want the table ">
+    <button onclick="table()">print table</button>
+    <p id="res">table is</p>
+    <script>
+        let num=Number(document.getElementById("num").value);
+        let output='';
+        function table() {
+            for (let i = 1; i<= num; i++) {
+                output= num+"X"+i+"="+(num*i);
+            }
+            document.getElementById("res").innerHTML=output
+        }
+    </script>
+</body>
+
+</html>

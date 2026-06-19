@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Condition statement</title>
+</head>
+
+<body>
+    <h2>Find the day of the week.</h2>
+    <input type="text" id="day" placeholder="enter any number from 1 to 7">
+    <button onclick="showday()">check day</button>
+    <p id="result">day ??</p>
+    <script>
+        function showday() {
+            let number = Number(document.getElementById("day").value);
+            let res = document.getElementById("result");
+            switch (number) {
+                case 1:
+                    res.innerHTML = "Monday";
+                    break;
+                case 2:
+                    res.innerHTML = "Tuesday";
+                    break;
+                case 3:
+                    res.innerHTML = "Wednesday";
+                    break;
+                case 4:
+                    res.innerHTML = "Thursday";
+                    break;
+                case 5:
+                    res.innerHTML = "friday";
+                    break;
+                case 6:
+                    res.innerHTML = "saturday";
+                    break;
+                case 7:
+                    res.innerHTML = "Sunday";
+                    break;
+                default:
+                    res.innerHTML = "Invalid input !! please enter a number between 1 to 7";
+                    break;
+
+
+            }
+        }
+    </script>
+</body>
+
+</html>

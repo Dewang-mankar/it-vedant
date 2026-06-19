@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student marksheer</title>
+</head>
+<body>
+    <h2>Student Grade system.</h2>
+    <input type="text" id="marks" placeholder="enter marks">
+    <button onclick="checkgrade()">check grade</button>
+    <p id="result">result?</p>
+    <script>
+        function checkgrade()
+        {
+            let marks=Number(document.getElementById("marks").value);
+            let res=document.getElementById("result");
+            if (marks>=90){
+                res.style.color="green";
+                res.innerHTML="Grade : A+ Excellent work.";
+            }
+            else if(marks>=80 && marks<90){
+                res.style.color="green";
+                res.innerHTML="Grade : A Good work";
+            }
+            else if(marks>=60 && marks<80){
+                res.style.color="yellow";
+                res.innerHTML="Grade : B can do better";
+            }
+            else if(marks>=45 && marks<60){
+                res.style.color="blue";
+                res.innerHTML="Grade : C promoted";
+            }
+            else{
+                res.style.color="red";
+                res.innerHTML="Fail";
+            }
+            
+        }
+    </script>
+</body>
+</html>

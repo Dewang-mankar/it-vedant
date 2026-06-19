@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for loop</title>
+</head>
+<body>
+    <input type="text" id="num" placeholder="Enter Number:">
+    <button onclick="print_for_loop()">print numbers</button>
+    <p id="res">result</p>
+    <script>
+        function print_for_loop()
+        {
+            let num=Number(document.getElementById("num").value);
+            let output='';
+            for(let i=1;i<=10;i++)
+            {
+                output=output+num+"X"+i+"="+num*i+"<br>";
+
+            }
+            document.getElementById("res").innerHTML=output;
+
+        }
+    </script>
+</body>
+</html>

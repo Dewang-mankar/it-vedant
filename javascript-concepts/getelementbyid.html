@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo for get element by its ID</title>
+</head>
+<body>
+    <p id="para">This is simple paragraph tag.</p>
+    Username:<input type="text" id="uname" required onkeyup="keyup">
+    <script>
+        let user=document.getElementById('uname');
+        let p_ele=document.getElementById("para");
+        function keyup(){
+            p_ele.style.color='blue';
+        }
+    </script>
+    
+</body>
+</html>
